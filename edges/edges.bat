@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Arduino\hardware\tools\avr/bin/"avrdude -C"C:\Program Files (x86)\Arduino\hardware\tools\avr/etc/"avrdude.conf   -cavrispmkII -px32a4u -Pusb -e -Ufuse1:w:0x00:m -Ufuse2:w:0xbf:m -Ufuse4:w:0xfe:m -Ufuse5:w:0xf7:m -Uflash:w:edges.hex:i -Ulock:w:0x3f:m
